@@ -4,10 +4,17 @@
   "private": true,
   "homepage": "https://anjalisoni3655.github.io/pod-2.1.2_website",
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@material-ui/core": "^4.11.3",
     "gh-pages": "^2.2.0",
+    "mdbreact": "^5.0.1",
     "react": "^16.8.3",
+    "react-bootstrap": "^1.4.3",
     "react-dom": "^16.8.3",
+    "react-loader-spinner": "^4.0.0",
     "react-scripts": "2.1.5",
+    "react-ui-cards": "^2.0.0",
+    "reactjs-navbar": "^1.0.2",
     "travis": "^0.1.1",
     "yarn": "^1.13.0"
   },

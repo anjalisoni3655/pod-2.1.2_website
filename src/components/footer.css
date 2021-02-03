@@ -1,0 +1,10 @@
+
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+  background-color: rgb(71, 114, 255);
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
