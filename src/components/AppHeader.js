@@ -41,7 +41,7 @@ function AppHeader(props) {
         setOpen(!open);
     }
 
-    const menuItemList=[['About Us', '/about'], ['Our Team', '/team'], ['Projects', '/projects'], ['Contact Us', '/contact-us']];
+    const menuItemList=[['About Us', '#aboutUs'], ['Our Team', '#team'], ['Projects', '#projects'], ['Contact Us', '#contactus']];
 
     return (
         <div className={classes.root}>
@@ -52,10 +52,10 @@ function AppHeader(props) {
                     </Button>
                     <div className={classes.menu}>
                         <Hidden smDown>
-                            <Button color="primary" href="/about">Meet the team</Button>
-                            <Button color="primary" href="/blog">Our Projects</Button>
-                            <Button color="primary" href="/whatWeDo">About Us</Button>
-                            <Button color="primary" href="/contact-us">Contact Us</Button>
+                            <Button color="primary" href="#team">Meet the team</Button>
+                            <Button color="primary" href="#projects">Our Projects</Button>
+                            <Button color="primary" href="#aboutUs">About Us</Button>
+                            <Button color="primary" href="#contactus">Contact Us</Button>
                         </Hidden>
                         
                         <Hidden mdUp>

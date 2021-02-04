@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "40px",
   },
   icon: {
-    fontSize: "60px",
+    fontSize: "50px",
     color: "#06c",
   },
   button: {
@@ -35,7 +35,7 @@ function ProjectCard() {
   const classes = useStyles();
 
   return (
-    <Grid container spacing={2} className={classes.container}>
+    <Grid container spacing={2} className={classes.container} id="projects">
       <Grid item xs={12} className={classes.alignCenter}>
         <Typography variant="h3">Our Projects</Typography>
       </Grid>
@@ -44,7 +44,14 @@ function ProjectCard() {
             <Grid item xs={12} sm={6} lg={3}>
               <Grid container spacing={3} className={classes.card}>
                 <Grid item xs={12} className={classes.alignCenter}>
-                  <Icon className={classes.icon}>{item.img}</Icon>
+                  {/* <Icon className={classes.icon}>{item.img}</Icon> */}
+                  <img
+                    src={
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfbE6APktdcqrf_wE21zAc1hE1QmeSLdsOgg&usqp=CAU"
+                    }
+                    alt="project"
+                    className="img-responsive"
+                  />
                 </Grid>
                 <Grid item xs={12} className={classes.alignCenter}>
                   <Typography

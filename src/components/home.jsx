@@ -1,6 +1,7 @@
 import React from "react";
 import AppHeader from "../components/AppHeader";
 import AppFooter from "../components/AppFooter";
+import ContactForm from "../components/ContactUs";
 import Intro from "../components/Intro";
 import Projects from "./projectCards";
 import Team from "../components/Team";
@@ -55,9 +56,10 @@ function Home() {
         pagename="Home"
         classes={classes}
       />
-      <Projects />
+      <Projects pagename="projects" />
       <hr className={classes.line}></hr>
-      <Team />
+      <Team pagename="team" />
+      <ContactForm pagename="ContactUs" />
 
       <AppFooter />
     </div>

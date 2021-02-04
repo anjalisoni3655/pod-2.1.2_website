@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
 function Team() {
   const classes = useStyles();
   return (
-    <div className={classes.main}>
+    <div className="div-class" id="team">
       <center>
         <Typography variant="h3">Our Team</Typography>
         <Slider
@@ -47,6 +47,7 @@ function Team() {
                           src={member.img}
                           alt=""
                           className={classes.images}
+                          href=""
                         />
                       </Grid>
                       <Grid item xs={12}>
@@ -56,6 +57,14 @@ function Team() {
                         <Typography variant="body1">
                           {member.position}
                         </Typography>
+                      </Grid>
+                      <Grid item xs={12}>
+                        <a
+                          href="www.instagram.com/anjalisoni3655"
+                          onclick={console.log("clicked")}
+                        >
+                          Know more
+                        </a>
                       </Grid>
                     </Grid>
                   </Grid>
