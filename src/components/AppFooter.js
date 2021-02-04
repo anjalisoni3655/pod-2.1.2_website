@@ -44,22 +44,22 @@ function AppFooter() {
           className={classes.container}
         >
           <Grid item xs={2} sm={1} className={classes.item}>
-            <Link href="https://www.instagram.com/electronicsclubiitg/">
+            <Link href="https://www.instagram.com/mlh/">
               <img src={instagramIcon} alt="Instagram" width="32" height="32" />
             </Link>
           </Grid>
           <Grid item xs={2} sm={1}>
-            <Link href="https://www.facebook.com/electronics.iitg">
+            <Link href="https://www.facebook.com/mlh">
               <img src={facebookIcon} alt="Facebook" width="32" height="32" />
             </Link>
           </Grid>
           <Grid item xs={2} sm={1}>
-            <Link href="https://www.linkedin.com/company/electronicsclubiitg/">
+            <Link href="https://www.linkedin.com/company/mlh">
               <img src={linkedinIcon} alt="LinkedIn" width="32" height="32" />
             </Link>
           </Grid>
           <Grid item xs={2} sm={1}>
-            <Link href="https://www.youtube.com/channel/UClPWjFXGdtjKYjZvulnUViw">
+            <Link href="https://www.youtube.com/">
               <img src={youtubeIcon} alt="YouTube" width="32" height="32" />
             </Link>
           </Grid>
