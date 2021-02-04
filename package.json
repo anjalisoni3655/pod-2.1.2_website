@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-app",
+  "name": "pod-website",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://anjalisoni3655.github.io/pod-2.1.2_website",
@@ -21,7 +21,7 @@
     "yarn": "^1.13.0"
   },
   "scripts": {
-    "start": "npm start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
