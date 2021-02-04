@@ -2,7 +2,7 @@ import React from "react";
 import { Grid, Typography, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import projects from "../content/projects";
-import Icon from "@material-ui/core/Icon";
+//import Icon from "@material-ui/core/Icon";
 
 const useStyles = makeStyles((theme) => ({
   alignCenter: {
