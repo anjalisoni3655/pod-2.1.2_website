@@ -1,4 +1,4 @@
-import anjali from "../resources/ClubMembers/anjii.jpg";
+import anjali from "../resources/TeamMembers/anjii.jpg";
 
 const teamDetails = [
   [
