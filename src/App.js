@@ -1,20 +1,22 @@
 import React, { Component } from "react";
 import "./App.css";
-import Footer from "./components/footer";
-import About from "./components/about";
 import Home from "./components/home";
-
-//import { render } from "react-dom";
-import Navbar from "./components/Navbar";
+import theme from "./components/theme";
+import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import { ThemeProvider } from "@material-ui/core/styles";
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Navbar></Navbar>
-        <About></About>
-        <Footer></Footer>
-      </div>
+      <Router>
+        <div>
+          <Switch>
+            <ThemeProvider theme={theme}>
+              <Route exact path="/" component={Home} />
+            </ThemeProvider>
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }
