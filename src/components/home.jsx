@@ -35,6 +35,8 @@ const useStyles = makeStyles((theme) => ({
     color: "white",
     marginTop: "40px",
     marginBottom: "40px",
+    fontFamily: "'Roboto Condensed', cursive",
+    fontSize: "30px",
   },
   line: {
     marginTop: "60px",

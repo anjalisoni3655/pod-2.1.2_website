@@ -9,8 +9,8 @@ const projects = [
     tags: ["Ruby", "Javascript", "Jekyll", "SCSS"],
   },
   {
-    img:
-      "https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/21026/how-to-make-a-discord-bot-7c0fe302b98b05b145682344b3a4ec59.png",
+    img: "https://miro.medium.com/max/820/0*N8RG95bKJnnF-wpL.png",
+
     title: "Event Bot",
     description:
       " Discord Bot to make announcements about upcoming sessions for the Fellows using Google Calendar and Calendly",
