@@ -38,6 +38,8 @@ const useStyles = makeStyles((theme) => ({
   },
   line: {
     marginTop: "60px",
+    marginLeft: "auto",
+    marginRight: "auto",
     border: "none",
     borderTop: "5px dotted #bbbfca",
     height: "5px",
