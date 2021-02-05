@@ -1,6 +1,6 @@
 ##### POD2.1.2-WEBSITE(Open Sourced Olafs)
 
-![alt text](https://github.com/anjalisoni3655/pod-2.1.2_website/blob/main/resources/images/img.gif?raw=true)
+![alt text](https://github.com/anjalisoni3655/pod-2.1.2_website/blob/main/img.gif?raw=true)
 
 ## Features
 
