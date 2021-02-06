@@ -13,13 +13,15 @@ const useStyles = makeStyles((theme) => ({
     // width: "2",
     // height: "100px",
     borderRadius: "50%",
-    marginTop: "5%",
+    marginTop: "20px",
   },
 }));
 
 var textArray = [
-  "We belong to pod 2.1.2",
-  "No, We are actually Open Sourced Olafs",
+  "Wondering who we are?",
+  "haven't guessed it yet?",
+  "wait for it..",
+  "Open Sourced Olaf! :D",
 ];
 function Intro(props) {
   const classes = useStyles();
@@ -41,28 +43,25 @@ function Intro(props) {
         <ReactTypingEffect
           text={textArray}
           className={props.classes.primaryText}
-          speed={100}
-          eraseSpeed={100}
-          eraseDelay={100}
-          typingDelay={100}
+          speed={30}
+          eraseSpeed={20}
+          eraseDelay={1250}
+          typingDelay={75}
         ></ReactTypingEffect>
       </div>
       <center>
         <img src={logo} className={classes.images} alt="loading..." />
       </center>
-      {/* {props.pagename === "Home" ? (
+      {props.pagename === "Home" ? (
         <center>
-          <Button
-            variant="contained"
-            color="secondary"
-            className={classes.button}
-            size="large"
-            href="www.mlh.com"
-          >
-            Check MLH Website
-          </Button>
+          <Typography
+          variant="h6"
+          className={props.classes.secondaryText}
+          id="entry-text"
+        >I'm Olaf and I like warm <del>hugs</del> bugs!
+        </Typography>
         </center>
-      ) : null} */}
+      ) : null}
     </div>
   );
 }

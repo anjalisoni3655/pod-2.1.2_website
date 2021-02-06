@@ -10,12 +10,12 @@ import backgroundImage from "../resources/images/background.png";
 
 const useStyles = makeStyles((theme) => ({
   backgroundDiv: {
-    height: "600px",
+    height: "100%",
     backgroundImage: `url(${backgroundImage})`,
     backgroundSize: "100%",
     backgroundColor: "#141415",
-    backgroundPosition: "center",
-    marginBottom: "20px",
+    backgroundPosition: "justify",
+    marginBottom: "0px",
     position: "relative",
   },
   attributeText: {
@@ -28,10 +28,17 @@ const useStyles = makeStyles((theme) => ({
     position: "relative",
     width: "100%",
     margin: "auto",
-    paddingTop: "200px",
+    paddingTop: "330px",
     textAlign: "center",
   },
   primaryText: {
+    color: "white",
+    marginTop: "20px",
+    marginBottom: "40px",
+    fontFamily: "'Roboto Condensed', cursive",
+    fontSize: "30px",
+  },
+  secondaryText: {
     color: "white",
     marginTop: "40px",
     marginBottom: "40px",
@@ -53,7 +60,7 @@ function Home() {
   const classes = useStyles();
   return (
     <div>
-      <AppHeader appBarTitle="MAJOR LEAGUE HACKING" />
+      <AppHeader appBarTitle="Pod Website" />
       <Intro
         primaryText="JUST HACK IT"
         secondaryText="WE LOVE HACKING"
