@@ -1,47 +1,81 @@
-.textarea{
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+.textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 .select {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 .form {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .fname {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 .email {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 .card {
-    width: 100%;
-    align-content: center;
+  width: 100%;
+  align-content: center;
 }
 .button {
-    background-color: #1d539f;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
+  background-color: #1d539f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+.frontCard {
+  display: flex;
+  width: 25vw;
+  height: 25vw;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 1s ease;
+}
+
+.backCard {
+  transform: rotatey(180deg);
+  transition: 1s ease;
+  display: flex;
+  width: 25vw;
+  height: 25vw;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.deactive {
+  display: none;
+}
+.back {
+  transform: rotatey(180deg);
+}
+
+.active {
+  display: block;
+  transform: rotatey();
 }
