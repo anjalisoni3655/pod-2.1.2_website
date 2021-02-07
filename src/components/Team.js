@@ -14,8 +14,8 @@ const useStyles = makeStyles((theme) => ({
   },
   images: {
     marginTop: "50px",
-    width: "300px",
-    borderRadius: "20%",
+    width: "200px",
+    borderRadius: "50%",
   },
   container: {
     paddingLeft: "60px",

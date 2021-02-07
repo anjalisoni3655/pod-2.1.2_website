@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     height: "100%",
     backgroundImage: `url(${backgroundImage})`,
     backgroundSize: "cover",
-    //backgroundColor: "#141415",
+    backgroundColor: "#DBEDFB",
     backgroundPosition: "center",
     marginBottom: "0px",
     // position: "relative",
@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
     position: "relative",
     width: "100%",
     margin: "auto",
-    paddingTop: myHeight ,
+    paddingTop: myHeight,
     textAlign: "center",
   },
   primaryText: {
@@ -59,6 +59,9 @@ const useStyles = makeStyles((theme) => ({
     borderTop: "5px dotted #bbbfca",
     height: "5px",
     width: "10%",
+    // justify-content: "center",
+    alignItems: "center",
+    //position:"center"
   },
 }));
 
@@ -74,7 +77,7 @@ function Home() {
         classes={classes}
       />
       <Projects pagename="projects" />
-      <hr className={classes.line}></hr>
+      {/* <hr className={classes.line}></hr> */}
       <Team pagename="team" />
       <ContactForm pagename="ContactUs" />
 
