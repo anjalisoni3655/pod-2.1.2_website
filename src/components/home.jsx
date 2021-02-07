@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "100%",
     marginBottom: "100%",
     fontFamily: "'Roboto Condensed', cursive",
-    fontSize: "40px",
+    fontSize: "30px",
     textShadow: "2px 2px #1fb9f6",
   },
   secondaryText: {

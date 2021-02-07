@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: "0px 0px 10px 10px grey",
   },
   menuButton: {
+    //  position: "left",
     marginRight: theme.spacing(1),
   },
   title: {
@@ -105,12 +106,13 @@ function AppHeader(props) {
                 className={classes.menuButton}
                 color="primary"
                 aria-label="menu"
+                //position="left"
                 onClick={toggleDrawer}
               >
                 <MenuIcon />
               </IconButton>
               <SwipeableDrawer
-                anchor="left"
+                anchor="right"
                 open={open}
                 onClose={toggleDrawer}
                 onOpen={toggleDrawer}
