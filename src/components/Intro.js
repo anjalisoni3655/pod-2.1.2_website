@@ -11,23 +11,24 @@ const useStyles = makeStyles((theme) => ({
   },
   images: {
     // width: "2",
-    // height: "100px",
+    height: "200px",
     borderRadius: "50%",
-    marginTop: "20px",
+    marginTop: "10px",
+  
   },
 }));
 
 var textArray = [
   "Wondering who we are?",
-  "haven't guessed it yet?",
-  "wait for it..",
+  "Haven't guessed it yet?",
+  "Wait for it..",
   "Open Sourced Olaf! :D",
 ];
 function Intro(props) {
   const classes = useStyles();
   return (
     <div className={props.classes.backgroundDiv} id="aboutUs">
-      <Snowfall />
+      <Snowfall color="white" snowflakeCount={500} />
       <div className={props.classes.contentDiv}>
         {/* <Typography
           variant="h3"
@@ -55,11 +56,12 @@ function Intro(props) {
       {props.pagename === "Home" ? (
         <center>
           <Typography
-          variant="h6"
-          className={props.classes.secondaryText}
-          id="entry-text"
-        >I'm Olaf and I like warm <del>hugs</del> bugs!
-        </Typography>
+            variant="h6"
+            className={props.classes.secondaryText}
+            id="entry-text"
+          >
+            I'm Olaf and I like warm <del>hugs</del> bugs!
+          </Typography>
         </center>
       ) : null}
     </div>

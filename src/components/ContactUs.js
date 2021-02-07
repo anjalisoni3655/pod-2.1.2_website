@@ -74,7 +74,7 @@ function ContactForm(props) {
   }
 
   return (
-    <form id="contactus">
+    <form id="contactUs">
       <Grid
         container
         spacing={2}

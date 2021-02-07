@@ -6,17 +6,22 @@ import Intro from "../components/Intro";
 import Projects from "./projectCards";
 import Team from "../components/Team";
 import { makeStyles } from "@material-ui/core/styles";
-import backgroundImage from "../resources/images/background.png";
-
+import backgroundImage from "../resources/images/snow.jpg";
+//
 const useStyles = makeStyles((theme) => ({
   backgroundDiv: {
     height: "100%",
     backgroundImage: `url(${backgroundImage})`,
-    backgroundSize: "100%",
-    backgroundColor: "#141415",
-    backgroundPosition: "justify",
-    marginBottom: "0px",
-    position: "relative",
+    backgroundSize: "cover",
+    //backgroundColor: "#141415",
+    backgroundPosition: "center",
+    //marginBottom: "0px",
+  //  position: "relative",
+    backgroundRepeat: "no-repeat",
+    //background
+    // background-position: center,
+    //background-repeat: no-repeat,
+    //background-size: cover,
   },
   attributeText: {
     fontSize: "8px",
@@ -32,14 +37,14 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
   },
   primaryText: {
-    color: "white",
+    color: "blue",
     marginTop: "20px",
     marginBottom: "40px",
     fontFamily: "'Roboto Condensed', cursive",
     fontSize: "30px",
   },
   secondaryText: {
-    color: "white",
+    color: "blu",
     marginTop: "40px",
     marginBottom: "40px",
     fontFamily: "'Roboto Condensed', cursive",
