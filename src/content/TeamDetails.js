@@ -22,6 +22,8 @@ const teamDetails = [
       img: anjali,
       email: "anjalisoni@gmail.com",
     },
+  ],
+  [
     {
       name: "Anjali Soni",
       position: "Full Stack Developer",
