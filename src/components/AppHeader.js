@@ -20,7 +20,8 @@ const useStyles = makeStyles((theme) => ({
   },
   menuButton: {
     //  position: "left",
-    marginRight: theme.spacing(1),
+      marginRight: theme.spacing(1),
+      color:"blue"
   },
   title: {
     fontSize: 22,
@@ -69,30 +70,30 @@ function AppHeader(props) {
     <div className={classes.root}>
       <AppBar position="static" className={classes.appBar}>
         <Toolbar className={classes.toolbar}>
-          <Button color="primary" href="/" className={classes.title}>
+          <Button color="blue" href="/" className={classes.title}>
             {props.appBarTitle}
           </Button>
           <div className={classes.menu}>
             <Hidden smDown>
-              <Button color="primary" className={classes.button} href="#team">
+              <Button color="blue" className={classes.button} href="#team">
                 Meet the team
               </Button>
               <Button
-                color="primary"
+                color="blue"
                 href="#projects"
                 className={classes.button}
               >
                 Our Projects
               </Button>
               <Button
-                color="primary"
+                color="blue"
                 href="#aboutUs"
                 className={classes.button}
               >
                 About Us
               </Button>
               <Button
-                color="primary"
+                color="blue"
                 href="#contactUs"
                 className={classes.button}
               >
@@ -104,7 +105,7 @@ function AppHeader(props) {
               <IconButton
                 edge="end"
                 className={classes.menuButton}
-                color="primary"
+                color="#000"
                 aria-label="menu"
                 //position="left"
                 onClick={toggleDrawer}

@@ -61,7 +61,7 @@ function Intro(props) {
             className={props.classes.secondaryText}
             id="entry-text"
           >
-            I'm Olaf and I like warm  <del>hugs</del> bugs!
+            I'm Olaf & I like warm  <del>hugs</del> bugs!
           </Typography>
         </center>
       ) : null}

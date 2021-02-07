@@ -1,19 +1,16 @@
 import anjali from "../resources/TeamMembers/anjii.jpg";
-
-const teamDetails = [
+export const mobileTeamDetails = [
   [
+   
     {
       name: "Anjali Soni",
       position: "Full Stack Developer",
       img: anjali,
       email: "anjalisoni@gmail.com",
     },
-    {
-      name: "Anjali Soni",
-      position: "Full Stack Developer",
-      img: anjali,
-      email: "anjalisoni@gmail.com",
-    },
+    
+  ],
+  [
     {
       name: "Anjali Soni",
       position: "Full Stack Developer",
@@ -28,12 +25,8 @@ const teamDetails = [
       img: anjali,
       email: "anjalisoni@gmail.com",
     },
-    {
-      name: "Anjali Soni",
-      position: "Full Stack Developer",
-      img: anjali,
-      email: "anjalisoni@gmail.com",
-    },
+  ],
+  [
     {
       name: "Anjali Soni",
       position: "Full Stack Developer",
@@ -48,6 +41,24 @@ const teamDetails = [
       img: anjali,
       email: "anjalisoni@gmail.com",
     },
+  ],
+  [
+    {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+  ],
+  [
+    {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+  ],
+  [
     {
       name: "Anjali Soni",
       position: "Full Stack Developer",
@@ -56,5 +67,67 @@ const teamDetails = [
     },
   ],
 ];
+export const teamDetails = [
+  [
+    {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+    {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+    {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+  ],
+  [
+    {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+    {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+    {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+  ],
+  [
+    {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+    {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+     {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+  ],
+];
 
-export default teamDetails;
+//export default  teamDetails, mobileTeamDetails ;

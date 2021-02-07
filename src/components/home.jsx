@@ -9,7 +9,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import backgroundImage from "../resources/images/snow.jpg";
 //
 var myHeight = window.innerHeight;
-myHeight /= 2.6;
+myHeight /= 2.4;
 const useStyles = makeStyles((theme) => ({
   backgroundDiv: {
     height: "100%",
@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
     textShadow: "2px 2px #1fb9f6",
   },
   secondaryText: {
-    color: "#1fb9f6",
+    color: "000",
     marginTop: "20px",
     marginBottom: "50px",
     fontFamily: "'Roboto Condensed', cursive",
