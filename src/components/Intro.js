@@ -14,21 +14,21 @@ const useStyles = makeStyles((theme) => ({
     height: "200px",
     borderRadius: "50%",
     marginTop: "10px",
-  
+    boxShadow: "0px 0px 5px 5px #BEE1FD",
   },
 }));
 
 var textArray = [
   "Wondering who we are?",
   "Haven't guessed it yet?",
-  "Wait for it..",
+  "Wait for it...",
   "Open Sourced Olaf! :D",
 ];
 function Intro(props) {
   const classes = useStyles();
   return (
     <div className={props.classes.backgroundDiv} id="aboutUs">
-      <Snowfall color="white" snowflakeCount={500} />
+      <Snowfall color="white" snowflakeCount={200} />
       <div className={props.classes.contentDiv}>
         {/* <Typography
           variant="h3"

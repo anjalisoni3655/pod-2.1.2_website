@@ -15,13 +15,12 @@ const useStyles = makeStyles((theme) => ({
     backgroundSize: "cover",
     //backgroundColor: "#141415",
     backgroundPosition: "center",
-    //marginBottom: "0px",
-  //  position: "relative",
+    marginBottom: "0px",
+     // position: "relative",
     backgroundRepeat: "no-repeat",
-    //background
+    
     // background-position: center,
-    //background-repeat: no-repeat,
-    //background-size: cover,
+    
   },
   attributeText: {
     fontSize: "8px",
@@ -37,11 +36,12 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
   },
   primaryText: {
-    color: "blue",
-    marginTop: "20px",
+    color: "#fff",
+    marginTop: "100px",
     marginBottom: "40px",
     fontFamily: "'Roboto Condensed', cursive",
     fontSize: "30px",
+    textShadow: "2px 2px #1fb9f6",
   },
   secondaryText: {
     color: "blu",

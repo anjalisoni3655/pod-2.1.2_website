@@ -32,16 +32,20 @@ const useStyles = makeStyles((theme) => ({
   },
   drawerPaper: {
     color: theme.palette.common.white,
-    backgroundColor: "#000",
+    backgroundColor: "#B1DDF7",
   },
   toolbar: {
     paddingRight: "2px",
-    boxShadow: "0px 0px 20px 20px #CAE6FC",
+    boxShadow: "0px 0px 20px 20px #7B9CB6",
   },
   menu: {
     flexGrow: 1,
     display: "flex",
     justifyContent: "flex-end",
+  },
+  button: {
+    height: "20px",
+    fontSize: "16px",
   },
 }));
 
@@ -69,16 +73,28 @@ function AppHeader(props) {
           </Button>
           <div className={classes.menu}>
             <Hidden smDown>
-              <Button color="primary" href="#team" >
+              <Button color="primary" className={classes.button} href="#team">
                 Meet the team
               </Button>
-              <Button color="primary" href="#projects">
+              <Button
+                color="primary"
+                href="#projects"
+                className={classes.button}
+              >
                 Our Projects
               </Button>
-              <Button color="primary" href="#aboutUs">
+              <Button
+                color="primary"
+                href="#aboutUs"
+                className={classes.button}
+              >
                 About Us
               </Button>
-              <Button color="primary" href="#contactUs">
+              <Button
+                color="primary"
+                href="#contactUs"
+                className={classes.button}
+              >
                 Contact Us
               </Button>
             </Hidden>
@@ -94,7 +110,7 @@ function AppHeader(props) {
                 <MenuIcon />
               </IconButton>
               <SwipeableDrawer
-                anchor="right"
+                anchor="left"
                 open={open}
                 onClose={toggleDrawer}
                 onOpen={toggleDrawer}
