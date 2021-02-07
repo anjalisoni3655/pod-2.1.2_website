@@ -14,8 +14,8 @@ const useStyles = makeStyles((theme) => ({
     height: "200px",
     borderRadius: "50%",
     marginBottom: "10px",
-    marginTop:"20px",
-    boxShadow: "0px 0px 10px 10px #BEE1FD",
+    marginTop: "20px",
+    boxShadow: "0px 0px 10px 10px #BDDFFB",
   },
 }));
 
@@ -54,17 +54,18 @@ function Intro(props) {
       <center>
         <img src={logo} className={classes.images} alt="loading..." />
       </center>
-       {props.pagename === "Home" ? (
+      {props.pagename === "Home" ? (
         <center>
           <Typography
             variant="h6"
             className={props.classes.secondaryText}
             id="entry-text"
           >
-            I'm Olaf and I like warm <del>hugs</del> bugs!
+            I'm Olaf and I like warm
+            <del>hugs</del> bugs!
           </Typography>
         </center>
-      ) : null} 
+      ) : null}
     </div>
   );
 }

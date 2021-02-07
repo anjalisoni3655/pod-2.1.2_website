@@ -8,6 +8,8 @@ import Team from "../components/Team";
 import { makeStyles } from "@material-ui/core/styles";
 import backgroundImage from "../resources/images/snow.jpg";
 //
+var myHeight = window.innerHeight;
+myHeight /= 2.6;
 const useStyles = makeStyles((theme) => ({
   backgroundDiv: {
     height: "100%",
@@ -31,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
     position: "relative",
     width: "100%",
     margin: "auto",
-    paddingTop: "260px",
+    paddingTop: myHeight ,
     textAlign: "center",
   },
   primaryText: {
