@@ -5,23 +5,15 @@ import ContactForm from "../components/ContactUs";
 import Intro from "../components/Intro";
 import Projects from "./projectCards";
 import Team from "../components/Team";
+import { Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import backgroundImage from "../resources/images/snow.jpg";
+import backgroundImage from "../resources/images/snow_2.jpg";
 //
-var myHeight = window.innerHeight;
-myHeight /= 2.6;
+
 const useStyles = makeStyles((theme) => ({
   backgroundDiv: {
-    height: "100%",
-    backgroundImage: `url(${backgroundImage})`,
-    backgroundSize: "cover",
-    //backgroundColor: "#141415",
-    backgroundPosition: "center",
+    height: "900px",
     marginBottom: "0px",
-    // position: "relative",
-    backgroundRepeat: "no-repeat",
-
-    // background-position: center,
   },
   attributeText: {
     fontSize: "8px",
@@ -33,23 +25,24 @@ const useStyles = makeStyles((theme) => ({
     position: "relative",
     width: "100%",
     margin: "auto",
-    paddingTop: myHeight ,
+    paddingTop: "15%",
     textAlign: "center",
   },
   primaryText: {
-    color: "#fff",
-    marginTop: "100%",
+    color: "blue",
+    marginTop: "2px",
     marginBottom: "100%",
     fontFamily: "'Roboto Condensed', cursive",
     fontSize: "30px",
-    textShadow: "2px 2px #1fb9f6",
+    // textShadow: "2px 2px #1fb9f6",
   },
   secondaryText: {
-    color: "#1fb9f6",
-    marginTop: "20px",
+    color: "#000",
+    marginTop: "0px",
     marginBottom: "50px",
     fontFamily: "'Roboto Condensed', cursive",
     fontSize: "30px",
+    // textShadow: "2px 2px #1fb9f6",
   },
   line: {
     marginTop: "60px",
@@ -73,6 +66,15 @@ function Home() {
         pagename="Home"
         classes={classes}
       />
+      <center>
+        <Typography
+          variant="h6"
+          className={classes.secondaryText}
+          id="entry-text"
+        >
+          We're Olafs and we like warm <del>hugs</del> bugs!
+        </Typography>
+      </center>
       <Projects pagename="projects" />
       <hr className={classes.line}></hr>
       <Team pagename="team" />
