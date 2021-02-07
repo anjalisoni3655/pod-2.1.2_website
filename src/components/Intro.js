@@ -2,6 +2,8 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Button } from "@material-ui/core";
 import ReactTypingEffect from "react-typing-effect";
+import snow from "../resources/images/snow_8.jpg";
+import {css} from "../style/style.css";
 import logo from "../resources/images/olaf.gif";
 import Snowfall from "react-snowfall";
 
@@ -11,10 +13,10 @@ const useStyles = makeStyles((theme) => ({
   },
   images: {
     // width: "2",
-    height: "200px",
-    borderRadius: "50%",
+    height: "25%",
+    borderRadius: "25%",
     marginBottom: "10px",
-    marginTop: "20px",
+    marginTop: "125px",
     boxShadow: "0px 0px 10px 10px #BDDFFB",
   },
 }));
@@ -29,6 +31,7 @@ function Intro(props) {
   const classes = useStyles();
   return (
     <div className={props.classes.backgroundDiv} id="aboutUs">
+      <img src={snow} className="bg"></img>
       <Snowfall color="white" snowflakeCount={200} />
       <div className={props.classes.contentDiv}>
         {/* <Typography
@@ -54,17 +57,6 @@ function Intro(props) {
       <center>
         <img src={logo} className={classes.images} alt="loading..." />
       </center>
-      {props.pagename === "Home" ? (
-        <center>
-          <Typography
-            variant="h6"
-            className={props.classes.secondaryText}
-            id="entry-text"
-          >
-            I'm Olaf and I like warm  <del>hugs</del> bugs!
-          </Typography>
-        </center>
-      ) : null}
     </div>
   );
 }
