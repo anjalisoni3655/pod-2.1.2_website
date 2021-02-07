@@ -2,7 +2,7 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anjalisoni3655.github.io/pod-2.1.2_website",
+  "homepage": "https://anjalisoni3655.ginthub.io/pod-2.1.2_website",
   "dependencies": {
     "@craco/craco": "^6.1.0",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",

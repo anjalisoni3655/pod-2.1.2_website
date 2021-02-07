@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Typography, Button } from "@material-ui/core";
+import { Typography } from "@material-ui/core";
 import ReactTypingEffect from "react-typing-effect";
 import logo from "../resources/images/olaf.gif";
 import Snowfall from "react-snowfall";
