@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { css } from "../style/style.css";
 import { makeStyles } from "@material-ui/core/styles";
 import {
   AppBar,
@@ -40,11 +41,14 @@ const useStyles = makeStyles((theme) => ({
   toolbar: {
     paddingRight: "2px",
     boxShadow: "0px 0px 15px 15px #7B9CB6",
+    position: "fixed",
+    width: "100%",
+    zIndex: 6,
   },
   menu: {
     flexGrow: 1,
     display: "flex",
-    justifyContent: "flex-end",
+    justifyContent: "center",
   },
   button: {
     height: "20px",
@@ -71,22 +75,24 @@ function AppHeader(props) {
     <div className={classes.root}>
       <AppBar position="static" className={classes.appBar}>
         <Toolbar className={classes.toolbar}>
-          <Button color="blue" href="/" className={classes.title}>
+          {/* <Button color="blue" href="/" className={classes.title}>
             {props.appBarTitle}
-          </Button>
+          </Button> */}
           <div className={classes.menu}>
             <Hidden smDown>
-              <Button color="blue" href="#top" className={classes.button}>
+
+            <Button color="blue" href="#top" className={classes.button}>
+
                 About Us
               </Button>
               <Button color="blue" href="#projects" className={classes.button}>
-                Our Projects
+                Projects
               </Button>
-              <Button color="blue" href="#aboutUs" className={classes.button}>
-                About Us
+              <Button color="blue" className={classes.button} href="#team">
+                Team
               </Button>
               <Button color="blue" href="#contactUs" className={classes.button}>
-                Contact Us
+                Contact
               </Button>
             </Hidden>
 
@@ -119,34 +125,24 @@ function AppHeader(props) {
                     ))} */}
                   <ListItem button key="About Us" href="#top">
                     <Button color="blue" href="#top" className={classes.button}>
-                      About Us
+
+                    About Us
                     </Button>
                   </ListItem>
                   <ListItem button key="Projects" href="#projects">
-                    <Button
-                      color="blue"
-                      href="#projects"
-                      className={classes.button}
-                    >
-                      Projects
+                    <Button color="blue" href="#projects" className={classes.button}>
+                    Projects
                     </Button>
                   </ListItem>
                   <ListItem button key="Team" href="#team">
-                    <Button
-                      color="blue"
-                      href="#team"
-                      className={classes.button}
-                    >
-                      Team
+                    <Button color="blue" href="#team" className={classes.button}>
+                    Team
                     </Button>
                   </ListItem>
                   <ListItem button key="Contact" href="#contactUs">
-                    <Button
-                      color="blue"
-                      href="#contactUs"
-                      className={classes.button}
-                    >
-                      Contact
+                    <Button color="blue" href="#contactUs" className={classes.button}>
+                    Contact
+
                     </Button>
                   </ListItem>
                 </List>
