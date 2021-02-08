@@ -20,7 +20,7 @@
   - run `npm start` to start the service on `localhost:3000`
     
 ##### Deployed app : https://open-sourced-olafs.netlify.app/
-- Deployment done using Heroku app.
+- Deployment done using Netlify. 
 - Continuous deployment is also done using Travis CI.
 
 ## Future Scopes
