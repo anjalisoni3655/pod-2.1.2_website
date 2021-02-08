@@ -6,7 +6,7 @@
 
 - Navigation bar, that links to the different section within the website.
 - Brief intro about MLH and a background image.
-- Projects card displaying image related to the project, tags showing the techstacks used and links to GitHub and deployed app.
+- Projects card displaying image related to the project, tags showing the techstacks used and links to GitHub and deployed app with the feature to flip.
 - Team details card, each card showing pod member name and the social media handle tags in a infinite slide carausal.
 - Contact us Form with 3 fields of name, email and message, to reach to us.
 - Footer showing the icons for different social media handles of MLH.

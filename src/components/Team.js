@@ -164,18 +164,10 @@ function Team() {
               <Grid container spacing={2}>
                 {teamPage.map((member) => (
                   <div className="overflow-hidden rounded-lg h-full w-1/3">
-<<<<<<< HEAD
-                   
-                    <img
-                      src={member.img}
-                      className={classes.images}
-                      alt="loading..."
-=======
                     <img
                       className={classes.images}
                       src={member.img}
                       alt="image"
->>>>>>> 439c03785dc76f119ba066a823d360c32d1b2d88
                     />
                     <div>
                       <div className="font-bold text-xl mb-2 mt-2">
@@ -191,17 +183,10 @@ function Team() {
                           direction="row"
                           justify="center"
                           alignItems="center"
-<<<<<<< HEAD
-                          spacing={2}
-                        >
-                          <Grid item xs={12}>
-                            <Grid container justify="center" spacing={2}>
-=======
                           spacing={1}
                         >
                           <Grid item xs={14}>
                             <Grid container justify="center" spacing={1}>
->>>>>>> 439c03785dc76f119ba066a823d360c32d1b2d88
                               <Grid key={0} item>
                                 <a href={member.github}>
                                   <svg
