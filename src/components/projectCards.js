@@ -8,7 +8,7 @@ export default function projectCards() {
       <h3
         className="text-5xl font-black flex justify-center m-2"
         style={{
-          fontFamily: "'Roboto Condensed', cursive",
+          fontFamily: "'Roboto Condensed', ",
           marginBottom: "30px",
         }}
       >
