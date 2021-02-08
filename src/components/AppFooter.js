@@ -20,7 +20,8 @@ const useStyles = makeStyles((theme) => ({
     margin: "2px",
   },
   attributeText: {
-    fontSize: "8px",
+    fontSize: "14px",
+    marginBottom:"8px"
   },
   container: {
     marginTop: "40px",
@@ -68,24 +69,7 @@ function AppFooter() {
       <Grid item xs={12}>
         <center>
           <Typography className={classes.attributeText} color="inherit">
-            {"Items made by "}
-            <Link
-              href="https://www.flaticon.com/authors/freepik"
-              color="inherit"
-            >
-              Freepik
-            </Link>
-            {" and "}
-            <Link
-              href="https://www.flaticon.com/authors/pixel-perfect"
-              color="inherit"
-            >
-              Pixel perfect
-            </Link>
-            {" from "}
-            <Link href="https://www.flaticon.com/" color="inherit">
-              www.flaticon.com
-            </Link>
+            Made with 💓 by Team 3
           </Typography>
         </center>
       </Grid>

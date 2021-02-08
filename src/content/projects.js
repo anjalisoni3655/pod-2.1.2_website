@@ -48,6 +48,16 @@ const projects = [
     website: "https://mlh-fellowship.github.io/portfolio-template/",
     tags: ["React", "Django", "Typescript"],
   },
+  {
+    img: "https://miro.medium.com/max/820/0*N8RG95bKJnnF-wpL.png",
+
+    title: "Event Bot",
+    description:
+      " Discord Bot to make announcements about upcoming sessions for the Fellows using Google Calendar and Calendly",
+    github: "https://github.com/MLH-Fellowship/portfolio-template",
+    website: "https://mlh-fellowship.github.io/portfolio-template/",
+    tags: ["Discord bot", "calendar", "timezone"],
+  },
 ];
 
 export default projects;
