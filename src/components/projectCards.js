@@ -4,7 +4,7 @@ import projects from "../content/projects";
 export default function projectCards() {
   return (
     <div>
-      <h3 className="text-5xl font-black flex justify-center" id ="projects" style={{fontFamily:"'Roboto Condensed', cursive"}}>Our Projects</h3>
+      <h3 className="text-5xl font-black flex justify-center" id ="projects" style={{fontFamily:"'Roboto Condensed', cursive",marginBottom:"30px"}}>Our Projects</h3>
       <div className="flex flex-row flex-wrap mx-auto max-w-screen-lg lg:justify-start justify-around">
         {projects &&
           projects.map((data, index) => (

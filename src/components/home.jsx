@@ -7,7 +7,7 @@ import Projects from "./projectCards";
 import Team from "../components/Team";
 import { Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import backgroundImage from "../resources/images/snow_2.jpg";
+import backgroundImage from "../resources/images/snow.jpg";
 //
 
 const useStyles = makeStyles((theme) => ({
@@ -29,12 +29,12 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
   },
   primaryText: {
-    color: "blue",
-    marginTop: "2px",
+    color: "#fff",
+    marginTop: "100%",
     marginBottom: "100%",
     fontFamily: "'Roboto Condensed', cursive",
     fontSize: "30px",
-    // textShadow: "2px 2px #1fb9f6",
+    textShadow: "2px 2px black",
   },
   secondaryText: {
     color: "#000",
@@ -76,7 +76,7 @@ function Home() {
         </Typography>
       </center>
       <Projects pagename="projects" />
-      <hr className={classes.line}></hr>
+      {/* <hr className={classes.line}></hr> */}
       <Team pagename="team" />
       <ContactForm pagename="ContactUs" />
 

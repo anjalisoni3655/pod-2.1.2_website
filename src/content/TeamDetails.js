@@ -1,5 +1,6 @@
 import Aitik from "../resources/TeamMembers/Aitik.png";
 import Anjali from "../resources/TeamMembers/anjali.jpg";
+import anjali from "../resources/TeamMembers/anjali.jpg";
 import Bodhisha from "../resources/TeamMembers/Bodhisha.jpeg";
 import Bushra from "../resources/TeamMembers/Bushra.jpeg";
 import Dean from "../resources/TeamMembers/Dean.jpg";
@@ -10,38 +11,102 @@ import Rashika from "../resources/TeamMembers/Rashika.jpg";
 import Samuel from "../resources/TeamMembers/Samuel.jpeg";
 import Sena from "../resources/TeamMembers/Sena.jpeg";
 import Shrill from "../resources/TeamMembers/Shrill.jpg";
+export const mobileTeamDetails = [
+  [
+    {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+  ],
+  [
+    {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+  ],
+  [
+    {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+  ],
+  [
+    {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+  ],
+  [
+    {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+  ],
+  [
+    {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+  ],
+  [
+    {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+  ],
+  [
+    {
+      name: "Anjali Soni",
+      position: "Full Stack Developer",
+      img: anjali,
+      email: "anjalisoni@gmail.com",
+    },
+  ],
+];
+export const teamDetails = [
+  [
+    {
+      name: "Rashika Karki",
+      position: "Nepal",
+      img: Rashika,
+      email: "rashikakarki9841@gmail.com",
+    },
+  ],
+  [
+    {
+      name: "Aitik Gupta",
+      position: "India",
+      img: Aitik,
+      email: "aitikgupta@gmail.com",
+    },
+    {
+      name: "Anjali Soni",
+      position: "India",
+      img: Anjali,
+      email: "anjalisoni3655@gmail.com",
+    },
+    {
+      name: "Bodhisha Thomas",
+      position: "India",
+      img: Bodhisha,
+      email: "bodhisha@gmail.com",
+    },
+  ],
 
-const teamDetails = [
-  
-    [
-      {
-        name: "Rashika Karki",
-        position: "Nepal",
-        img: Rashika,
-        email: "rashikakarki9841@gmail.com",
-      },
-    ],
-    [
-      {
-        name: "Aitik Gupta",
-        position: "India",
-        img: Aitik,
-        email: "aitikgupta@gmail.com",
-      },
-      {
-        name: "Anjali Soni",
-        position: "India",
-        img: Anjali,
-        email: "anjalisoni3655@gmail.com",
-      },
-      {
-        name: "Bodhisha Thomas",
-        position: "India",
-        img: Bodhisha,
-        email: "bodhisha@gmail.com",
-      },
-    ],
-  
   [
     {
       name: "Bushra Akram",
@@ -124,4 +189,3 @@ const teamDetails = [
   ],
 ];
 
-export default teamDetails;

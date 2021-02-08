@@ -2,8 +2,14 @@ import React from "react";
 import Slider from "infinite-react-carousel";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid, Typography } from "@material-ui/core";
-import teamDetails from "../content/TeamDetails";
-
+import { teamDetails, mobileTeamDetails } from "../content/TeamDetails";
+var isMobile = window.orientation > -1;
+var newTeamDetails = [];
+if (isMobile === true) {
+  newTeamDetails = mobileTeamDetails;
+} else {
+  newTeamDetails = teamDetails;
+}
 const useStyles = makeStyles((theme) => ({
   main: {
     marginTop: "20px",
@@ -15,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
   images: {
     marginTop: "50px",
     width: "200px",
-    borderRadius: "250%",
+    borderRadius: "50%",
   },
   container: {
     paddingLeft: "60px",
@@ -41,7 +47,7 @@ function Team() {
           autoplay={true}
           autoplaySpeed={4000}
         >
-          {teamDetails.map((teamPage) => (
+          {newTeamDetails.map((teamPage) => (
             <div>
               <Grid container spacing={2}>
                 {teamPage.map((member) => (
@@ -65,10 +71,10 @@ function Team() {
                           direction="row"
                           justify="center"
                           alignItems="center"
-                          spacing={2}
+                          spacing={1}
                         >
-                          <Grid item xs={12}>
-                            <Grid container justify="center" spacing={2}>
+                          <Grid item xs={14}>
+                            <Grid container justify="center" spacing={1}>
                               <Grid key={0} item>
                                 <a href={member.github}>
                                   <svg
