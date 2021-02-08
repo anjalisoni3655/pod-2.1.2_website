@@ -7,12 +7,14 @@ import Rashika from "../resources/TeamMembers/Rashika.jpg";
 var isMobile = window.orientation > -1;
 
 var newTeamDetails = [];
-var margin = "0px";
+var margin = "10px";
+var margin2 = "10px";
 var thickness;
 if (isMobile === true) {
   newTeamDetails = mobileTeamDetails;
   thickness = 2;
   margin = "80px";
+  margin2="0px"
 } else {
   newTeamDetails = teamDetails;
   thickness = 3;
@@ -166,7 +168,7 @@ function Team() {
         >
           {newTeamDetails.map((teamPage) => (
             <div>
-              <Grid container spacing={2} style={{ marginLeft: margin }}>
+              <Grid container spacing={2} style={{ marginLeft: margin,marginRight:margin2 }}>
                 {teamPage.map((member) => (
                   <div
                     className={
