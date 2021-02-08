@@ -49,6 +49,16 @@ const projects = [
     website: "https://mlh-fellowship.github.io/portfolio-template/",
     tags: ["React", "Django", "Typescript"],
   },
+  {
+    img:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfbE6APktdcqrf_wE21zAc1hE1QmeSLdsOgg&usqp=CAU",
+    title: "FellowStories",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    github: "https://github.com/MLH-Fellowship/portfolio-template",
+    website: "https://mlh-fellowship.github.io/portfolio-template/",
+    tags: ["React", "Django", "Typescript"],
+  },
 ];
 
 export default projects;

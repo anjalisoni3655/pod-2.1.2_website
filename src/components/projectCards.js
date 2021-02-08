@@ -9,7 +9,7 @@ export default function projectCards() {
         Our Projects
       </h3>
 
-      <div className="flex flex-row flex-wrap mx-auto my-4 max-w-screen-xl lg:justify-start justify-around">
+      <div className="flex flex-row flex-wrap mx-auto my-4 max-w-screen-xl lg:justify-center justify-around">
         {projects &&
           projects.map((data, index) => (
             <Flippy
