@@ -7,19 +7,18 @@ export default function projectCards() {
     <div>
       <h3
         className="text-5xl font-black flex justify-center m-2"
-        style={{ fontFamily: "'Roboto Condensed', cursive",marginBottom:"30px"}}
+        style={{
+          fontFamily: "'Roboto Condensed', cursive",
+          marginBottom: "30px",
+        }}
       >
         Our Projects
       </h3>
 
-      <div className="flex flex-row flex-wrap mx-auto my-4 max-w-screen-xl lg:justify-center justify-around" >
+      <div className="flex flex-row flex-wrap mx-auto my-4 max-w-screen-xl lg:justify-center justify-around">
         {projects &&
           projects.map((data, index) => (
-            <Flippy
-             // flipOnHover={true}
-              flipOnClick={true}
-              flipDirection="horizontal"
-            >
+            <Flippy flipOnClick={true} flipDirection="horizontal">
               <FrontSide className="mx-4">
                 <div key={index} className="max-w-lg p-4 w-full">
                   <div className="overflow-hidden rounded-lg shadow-lg h-full">

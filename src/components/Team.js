@@ -15,7 +15,6 @@ if (isMobile === true) {
 const useStyles = makeStyles((theme) => ({
   main: {
     marginTop: "20px",
-    
   },
   slider: {
     width: "85%",
@@ -24,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
   images: {
     marginTop: "50px",
     width: "200px",
-    height:"200px",
+    height: "200px",
     borderRadius: "50%",
   },
   container: {
@@ -46,12 +45,12 @@ function Team() {
         <div className="overflow-hidden rounded-lg h-full w-1/3">
           <img className={classes.images} src={Rashika} alt="image" />
           <div>
-             <Typography className={classes.main} variant="h3">
-           Pod Leader
+            <Typography className={classes.main} variant="h3">
+              Pod Leader
             </Typography>
             <div className="font-bold text-xl mb-2 mt-2">Rashika Karki</div>
             <div className="text-gray-700 text-base">Nepal</div>
-           
+
             <div className={"flex" + classes.centerize}>
               <Grid
                 container
