@@ -7,9 +7,6 @@ import Projects from "./projectCards";
 import Team from "../components/Team";
 import { makeStyles } from "@material-ui/core/styles";
 import backgroundImage from "../resources/images/background.png";
-import music from "../resources/music/mlh.mpeg";
-import ReactAudioPlayer from "react-audio-player";
-//...
 
 const useStyles = makeStyles((theme) => ({
   backgroundDiv: {
