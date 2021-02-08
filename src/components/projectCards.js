@@ -9,7 +9,8 @@ export default function projectCards() {
         className="text-5xl font-black flex justify-center m-2"
         style={{
           fontFamily: "'Roboto Condensed', ",
-          marginBottom: "30px",
+          marginBottom: "40px",
+
         }}
       >
         Our Projects

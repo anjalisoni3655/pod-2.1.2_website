@@ -29,7 +29,7 @@ const projects = [
     website: "https://mlh-fellowship.github.io/portfolio-template/",
     tags: ["React", "Redux", "Tailwindcss"],
   },
-  {
+  /* {
     img:
       "https://res.cloudinary.com/practicaldev/image/fetch/s--rJXR08m_--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/1wnixl8acgv0zj5ydo58.png",
     title: "LarynxCode",
@@ -58,7 +58,7 @@ const projects = [
     github: "https://github.com/MLH-Fellowship/portfolio-template",
     website: "https://mlh-fellowship.github.io/portfolio-template/",
     tags: ["Discord bot", "calendar", "timezone"],
-  },
+  }, */
 ];
 
 export default projects;

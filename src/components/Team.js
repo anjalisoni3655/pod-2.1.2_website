@@ -20,7 +20,9 @@ if (isMobile === true) {
 
 const useStyles = makeStyles((theme) => ({
   main: {
-    marginTop: "20px",
+    marginTop: "30px",
+    position: "center",
+
   },
   slider: {
     width: "85%",
@@ -44,7 +46,7 @@ function Team() {
   return (
     <div className="div-class" id="team">
       <center>
-        <Typography className={classes.main} variant="h3">
+        <Typography className={classes.main} variant="h3" style={{marginBottom:"-20px"}}>
           Meet our Olafs :D
         </Typography>
 
