@@ -7,11 +7,12 @@ import Projects from "./projectCards";
 import Team from "../components/Team";
 import { Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import backgroundImage from "../resources/images/snow.jpg";
+import backgroundImage from "../resources/images/snow_8.jpg";
 //
 
 const useStyles = makeStyles((theme) => ({
   backgroundDiv: {
+    // boxShadow: "0px 0px 10px 10px #BDDFFB",
     height: "900px",
     marginBottom: "0px",
   },
@@ -29,12 +30,12 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
   },
   primaryText: {
-    color: "#fff",
+    color: "#000",
     marginTop: "100%",
     marginBottom: "100%",
     fontFamily: "'Roboto Condensed', cursive",
     fontSize: "30px",
-    textShadow: "2px 2px black",
+    //textShadow: "2px 2px #1fb9f6",
   },
   secondaryText: {
     color: "#000",

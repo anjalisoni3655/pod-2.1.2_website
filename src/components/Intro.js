@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography } from "@material-ui/core";
 import ReactTypingEffect from "react-typing-effect";
-import snow from "../resources/images/snow.jpg";
+import snow from "../resources/images/snow_8.jpg";
 import { css } from "../style/style.css";
 import logo from "../resources/images/olaf.gif";
 import Snowfall from "react-snowfall";
@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
   },
   images: {
     // width: "2",
-    height: "150px",
+    height: "200px",
     borderRadius: "50%",
     marginBottom: "10px",
     marginTop: "125px",

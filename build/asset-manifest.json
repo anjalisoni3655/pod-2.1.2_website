@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/pod-2.1.2_website/static/css/main.08513b46.chunk.css",
-    "main.js": "/pod-2.1.2_website/static/js/main.f5b36dca.chunk.js",
-    "main.js.map": "/pod-2.1.2_website/static/js/main.f5b36dca.chunk.js.map",
-    "runtime-main.js": "/pod-2.1.2_website/static/js/runtime-main.4fd75bd2.js",
-    "runtime-main.js.map": "/pod-2.1.2_website/static/js/runtime-main.4fd75bd2.js.map",
+    "main.js": "/pod-2.1.2_website/static/js/main.28ede060.chunk.js",
+    "main.js.map": "/pod-2.1.2_website/static/js/main.28ede060.chunk.js.map",
+    "runtime-main.js": "/pod-2.1.2_website/static/js/runtime-main.a3a09912.js",
+    "runtime-main.js.map": "/pod-2.1.2_website/static/js/runtime-main.a3a09912.js.map",
     "static/css/2.8d51fce3.chunk.css": "/pod-2.1.2_website/static/css/2.8d51fce3.chunk.css",
-    "static/js/2.3430d0eb.chunk.js": "/pod-2.1.2_website/static/js/2.3430d0eb.chunk.js",
-    "static/js/2.3430d0eb.chunk.js.map": "/pod-2.1.2_website/static/js/2.3430d0eb.chunk.js.map",
+    "static/js/2.fd88d312.chunk.js": "/pod-2.1.2_website/static/js/2.fd88d312.chunk.js",
+    "static/js/2.fd88d312.chunk.js.map": "/pod-2.1.2_website/static/js/2.fd88d312.chunk.js.map",
     "index.html": "/pod-2.1.2_website/index.html",
     "static/css/2.8d51fce3.chunk.css.map": "/pod-2.1.2_website/static/css/2.8d51fce3.chunk.css.map",
     "static/css/main.08513b46.chunk.css.map": "/pod-2.1.2_website/static/css/main.08513b46.chunk.css.map",
-    "static/js/2.3430d0eb.chunk.js.LICENSE.txt": "/pod-2.1.2_website/static/js/2.3430d0eb.chunk.js.LICENSE.txt",
+    "static/js/2.fd88d312.chunk.js.LICENSE.txt": "/pod-2.1.2_website/static/js/2.fd88d312.chunk.js.LICENSE.txt",
     "static/media/Aitik.6bea4912.png": "/pod-2.1.2_website/static/media/Aitik.6bea4912.png",
     "static/media/Bodhisha.6dfdba69.jpeg": "/pod-2.1.2_website/static/media/Bodhisha.6dfdba69.jpeg",
     "static/media/Bushra.e318df00.jpeg": "/pod-2.1.2_website/static/media/Bushra.e318df00.jpeg",
@@ -29,10 +29,10 @@
     "static/media/snow.ad07bed2.jpg": "/pod-2.1.2_website/static/media/snow.ad07bed2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4fd75bd2.js",
+    "static/js/runtime-main.a3a09912.js",
     "static/css/2.8d51fce3.chunk.css",
-    "static/js/2.3430d0eb.chunk.js",
+    "static/js/2.fd88d312.chunk.js",
     "static/css/main.08513b46.chunk.css",
-    "static/js/main.f5b36dca.chunk.js"
+    "static/js/main.28ede060.chunk.js"
   ]
 }
