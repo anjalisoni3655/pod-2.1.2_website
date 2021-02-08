@@ -79,7 +79,6 @@ function Home() {
       {/* <hr className={classes.line}></hr> */}
       <Team pagename="team" />
       <ContactForm pagename="ContactUs" />
-
       <AppFooter />
     </div>
   );

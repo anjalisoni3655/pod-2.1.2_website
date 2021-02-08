@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/pod-2.1.2_website/static/css/main.ab458aec.chunk.css",
+    "main.js": "/pod-2.1.2_website/static/js/main.36883f14.chunk.js",
+    "main.js.map": "/pod-2.1.2_website/static/js/main.36883f14.chunk.js.map",
+    "runtime-main.js": "/pod-2.1.2_website/static/js/runtime-main.4fd75bd2.js",
+    "runtime-main.js.map": "/pod-2.1.2_website/static/js/runtime-main.4fd75bd2.js.map",
+    "static/css/2.aff5756a.chunk.css": "/pod-2.1.2_website/static/css/2.aff5756a.chunk.css",
+    "static/js/2.4321163b.chunk.js": "/pod-2.1.2_website/static/js/2.4321163b.chunk.js",
+    "static/js/2.4321163b.chunk.js.map": "/pod-2.1.2_website/static/js/2.4321163b.chunk.js.map",
+    "index.html": "/pod-2.1.2_website/index.html",
+    "static/css/2.aff5756a.chunk.css.map": "/pod-2.1.2_website/static/css/2.aff5756a.chunk.css.map",
+    "static/css/main.ab458aec.chunk.css.map": "/pod-2.1.2_website/static/css/main.ab458aec.chunk.css.map",
+    "static/js/2.4321163b.chunk.js.LICENSE.txt": "/pod-2.1.2_website/static/js/2.4321163b.chunk.js.LICENSE.txt",
+    "static/media/anjii.680045ac.jpg": "/pod-2.1.2_website/static/media/anjii.680045ac.jpg",
+    "static/media/background.804b706c.png": "/pod-2.1.2_website/static/media/background.804b706c.png",
+    "static/media/instagram.e719d8b2.png": "/pod-2.1.2_website/static/media/instagram.e719d8b2.png",
+    "static/media/olaf.e015a2b0.gif": "/pod-2.1.2_website/static/media/olaf.e015a2b0.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4fd75bd2.js",
+    "static/css/2.aff5756a.chunk.css",
+    "static/js/2.4321163b.chunk.js",
+    "static/css/main.ab458aec.chunk.css",
+    "static/js/main.36883f14.chunk.js"
+  ]
+}

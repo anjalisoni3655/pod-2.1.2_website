@@ -9,11 +9,12 @@ const projects = [
     tags: ["Ruby", "Javascript", "Jekyll", "SCSS"],
   },
   {
-    img: "https://miro.medium.com/max/820/0*N8RG95bKJnnF-wpL.png",
+    img:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--rJXR08m_--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/1wnixl8acgv0zj5ydo58.png",
 
     title: "Event Bot",
     description:
-      " Discord Bot to make announcements about upcoming sessions for the Fellows using Google Calendar and Calendly",
+      " Discord Bot to make announcements about upcoming sessions for the Fellows using Google Calendar and Calendly,Google Calendar and Calendly",
     github: "https://github.com/MLH-Fellowship/portfolio-template",
     website: "https://mlh-fellowship.github.io/portfolio-template/",
     tags: ["Discord bot", "calendar", "timezone"],
