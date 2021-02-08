@@ -20,7 +20,10 @@ if (isMobile === true) {
 
 const useStyles = makeStyles((theme) => ({
   main: {
-    marginTop: "20px",
+    marginTop: "10%",
+  },
+  submain: {
+    marginTop: "10px",
   },
   slider: {
     width: "85%",
@@ -51,7 +54,7 @@ function Team() {
         <div className={"overflow-hidden rounded-lg h-full w-1/" + thickness}>
           <img className={classes.images} src={Rashika} alt="image" />
           <div>
-            <Typography className={classes.main} variant="h3">
+            <Typography className={classes.submain} variant="h3">
               Pod Leader
             </Typography>
             <div className="font-bold text-xl mb-2 mt-2">Rashika Karki</div>

@@ -83,8 +83,8 @@ function ContactForm(props) {
         className={classes.container}
       >
         <Grid item xs={12} style={{ marginBottom: "20px" }}>
-          <Typography variant="h5" className={classes.text}>
-            Let's connect and get to know our team
+          <Typography variant="h3" className={classes.text}>
+            Connect with the team:
           </Typography>
         </Grid>
         <Grid item xs={12} sm={6}>

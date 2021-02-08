@@ -2,6 +2,7 @@ import React from "react";
 import AppHeader from "../components/AppHeader";
 import AppFooter from "../components/AppFooter";
 import ContactForm from "../components/ContactUs";
+import Description from "../components/Description";
 import Intro from "../components/Intro";
 import Projects from "./projectCards";
 import Team from "../components/Team";
@@ -67,15 +68,7 @@ function Home() {
         pagename="Home"
         classes={classes}
       />
-      <center>
-        <Typography
-          variant="h6"
-          className={classes.secondaryText}
-          id="entry-text"
-        >
-          We're Olafs and we like warm <del>hugs</del> bugs!
-        </Typography>
-      </center>
+      <Description />
       <Projects pagename="projects" />
       {/* <hr className={classes.line}></hr> */}
       <Team pagename="team" />
