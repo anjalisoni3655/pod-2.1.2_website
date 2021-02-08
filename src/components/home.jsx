@@ -7,6 +7,9 @@ import Projects from "./projectCards";
 import Team from "../components/Team";
 import { makeStyles } from "@material-ui/core/styles";
 import backgroundImage from "../resources/images/background.png";
+import music from "../resources/music/mlh.mpeg";
+import ReactAudioPlayer from "react-audio-player";
+//...
 
 const useStyles = makeStyles((theme) => ({
   backgroundDiv: {
@@ -54,6 +57,7 @@ function Home() {
   return (
     <div>
       <AppHeader appBarTitle="MAJOR LEAGUE HACKING" />
+      {/* <ReactAudioPlayer src={music} autoPlay="true" controls="true" /> */}
       <Intro
         primaryText="JUST HACK IT"
         secondaryText="WE LOVE HACKING"
@@ -64,7 +68,6 @@ function Home() {
       <hr className={classes.line}></hr>
       <Team pagename="team" />
       <ContactForm pagename="ContactUs" />
-
       <AppFooter />
     </div>
   );
