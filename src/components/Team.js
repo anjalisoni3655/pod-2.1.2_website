@@ -7,10 +7,12 @@ import Rashika from "../resources/TeamMembers/Rashika.jpg";
 var isMobile = window.orientation > -1;
 
 var newTeamDetails = [];
+var margin = "0px";
 var thickness;
 if (isMobile === true) {
   newTeamDetails = mobileTeamDetails;
   thickness = 2;
+  margin = "80px";
 } else {
   newTeamDetails = teamDetails;
   thickness = 3;
@@ -46,7 +48,7 @@ function Team() {
           Meet our Olafs :D
         </Typography>
 
-        <div className={"overflow-hidden rounded-lg h-full w-1/"+thickness}>
+        <div className={"overflow-hidden rounded-lg h-full w-1/" + thickness}>
           <img className={classes.images} src={Rashika} alt="image" />
           <div>
             <Typography className={classes.main} variant="h3">
@@ -164,9 +166,13 @@ function Team() {
         >
           {newTeamDetails.map((teamPage) => (
             <div>
-              <Grid container spacing={2}>
+              <Grid container spacing={2} style={{ marginLeft: margin }}>
                 {teamPage.map((member) => (
-                  <div className={"overflow-hidden rounded-lg h-full w-1/"+thickness}>
+                  <div
+                    className={
+                      "overflow-hidden rounded-lg h-full w-1/" + thickness
+                    }
+                  >
                     <img
                       className={classes.images}
                       src={member.img}
