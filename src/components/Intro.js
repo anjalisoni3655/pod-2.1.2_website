@@ -24,8 +24,8 @@ const useStyles = makeStyles((theme) => ({
 var textArray = [
   "Wondering who we are?",
   "Haven't guessed it yet?",
-  "Wait for it...",
-  "Open Sourced Olaf! :D",
+  "Wait for it..",
+  "Open-Sourced Olaf!",
 ];
 function Intro(props) {
   const classes = useStyles();
@@ -47,9 +47,9 @@ function Intro(props) {
         <ReactTypingEffect
           text={textArray}
           className={props.classes.primaryText}
-          speed={30}
+          speed={20}
           eraseSpeed={20}
-          eraseDelay={1250}
+          eraseDelay={1300}
           typingDelay={75}
         ></ReactTypingEffect>
       </div>
