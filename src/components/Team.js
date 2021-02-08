@@ -20,7 +20,7 @@ if (isMobile === true) {
 
 const useStyles = makeStyles((theme) => ({
   main: {
-    marginTop: "30px",
+    marginTop: "80px",
     position: "center",
 
   },
