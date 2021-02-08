@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
   },
   toolbar: {
     paddingRight: "2px",
-    boxShadow: "0px 0px 20px 20px #7B9CB6",
+    boxShadow: "0px 0px 15px 15px #7B9CB6",
   },
   menu: {
     flexGrow: 1,

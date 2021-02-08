@@ -109,7 +109,7 @@ function ContactForm(props) {
               required
               variant="outlined"
               id="email"
-              name="from"
+              name="_replyto"
               label="Contact Email"
               defaultValue=""
               value={formData.from}
@@ -128,7 +128,7 @@ function ContactForm(props) {
               rows={4}
               rowsMax={10}
               id="msg"
-              name="msg"
+              name="message"
               label={"Your Message"}
               defaultValue=""
               value={formData.msg}

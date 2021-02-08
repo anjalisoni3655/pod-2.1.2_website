@@ -80,14 +80,6 @@ export const mobileTeamDetails = [
 export const teamDetails = [
   [
     {
-      name: "Rashika Karki",
-      position: "Nepal",
-      img: Rashika,
-      email: "rashikakarki9841@gmail.com",
-    },
-  ],
-  [
-    {
       name: "Aitik Gupta",
       position: "India",
       img: Aitik,
@@ -188,4 +180,3 @@ export const teamDetails = [
     },
   ],
 ];
-
