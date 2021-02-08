@@ -4,7 +4,7 @@ export default function AppFooter() {
   return (
     <footer className="bg-blue-100">
       <div className="flex flex-col items-center">
-        <div class="flex items-center justify-between my-2">
+        <div class="flex items-center justify-between mt-2">
           <div class="flex items-center">
             <a href="https://www.facebook.com/">
               <svg
@@ -12,7 +12,7 @@ export default function AppFooter() {
                 focusable="false"
                 data-prefix="fab"
                 data-icon="facebook-square"
-                class="h-8 w-8  text-blue-500 mr-6  hover:text-blue-900"
+                class="h-8 w-8  text-blue-600 mr-6  hover:text-blue-900"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
@@ -25,7 +25,7 @@ export default function AppFooter() {
             </a>
             <a href="https://www.github.com/">
               <svg
-                class="h-8 w-8  text-blue-500 mr-6  hover:text-blue-900"
+                class="h-8 w-8  text-blue-600 mr-6  hover:text-blue-900"
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
@@ -47,7 +47,7 @@ export default function AppFooter() {
                 focusable="false"
                 data-prefix="fab"
                 data-icon="linkedin"
-                class="h-8 w-8  text-blue-500 mr-6  hover:text-blue-900"
+                class="h-8 w-8  text-blue-600 mr-6  hover:text-blue-900"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
@@ -64,7 +64,7 @@ export default function AppFooter() {
                 focusable="false"
                 data-prefix="fab"
                 data-icon="twitter-square"
-                class="h-8 w-8  text-blue-500 mr-6  hover:text-blue-900"
+                class="h-8 w-8  text-blue-600 mr-6  hover:text-blue-900"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"

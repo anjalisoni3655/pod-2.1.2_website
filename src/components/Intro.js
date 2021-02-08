@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Typography, Button } from "@material-ui/core";
+import { Typography } from "@material-ui/core";
 import ReactTypingEffect from "react-typing-effect";
 import snow from "../resources/images/snow.jpg";
 import { css } from "../style/style.css";

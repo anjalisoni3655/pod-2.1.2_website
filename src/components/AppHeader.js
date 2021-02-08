@@ -20,8 +20,8 @@ const useStyles = makeStyles((theme) => ({
   },
   menuButton: {
     //  position: "left",
-      marginRight: theme.spacing(1),
-      color:"blue"
+    marginRight: theme.spacing(1),
+    color: "blue",
   },
   title: {
     fontSize: 22,
@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
   },
   toolbar: {
     paddingRight: "2px",
-    boxShadow: "0px 0px 20px 20px #7B9CB6",
+    boxShadow: "0px 0px 15px 15px #7B9CB6",
   },
   menu: {
     flexGrow: 1,
@@ -78,25 +78,13 @@ function AppHeader(props) {
               <Button color="blue" className={classes.button} href="#team">
                 Meet the team
               </Button>
-              <Button
-                color="blue"
-                href="#projects"
-                className={classes.button}
-              >
+              <Button color="blue" href="#projects" className={classes.button}>
                 Our Projects
               </Button>
-              <Button
-                color="blue"
-                href="#aboutUs"
-                className={classes.button}
-              >
+              <Button color="blue" href="#aboutUs" className={classes.button}>
                 About Us
               </Button>
-              <Button
-                color="blue"
-                href="#contactUs"
-                className={classes.button}
-              >
+              <Button color="blue" href="#contactUs" className={classes.button}>
                 Contact Us
               </Button>
             </Hidden>
