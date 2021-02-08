@@ -147,11 +147,7 @@ function ContactForm(props) {
             Send
           </Button>
         </Grid>
-        <Grid item xs={12} style={{ marginTop: "60px" }}>
-          <Typography variant="h5" className={classes.text}>
-            Or Connect with us on Social Media
-          </Typography>
-        </Grid>
+        <Grid item xs={12} style={{ marginTop: "60px" }}></Grid>
       </Grid>
     </form>
   );
