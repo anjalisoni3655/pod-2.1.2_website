@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AppFooter() {
   return (
-    <footer className="bg-blue-100">
+    <footer className="bg-gray-50">
       <div className="flex flex-col items-center">
         <div class="flex items-center justify-between mt-2">
           <div class="flex items-center">
