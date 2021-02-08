@@ -32,6 +32,7 @@ const useStyles = makeStyles((theme) => ({
   },
   appBar: {
     background: "#B1DDF7",
+    display: "flex",
   },
   drawerPaper: {
     color: theme.palette.common.white,
@@ -79,7 +80,9 @@ function AppHeader(props) {
           </Button> */}
           <div className={classes.menu}>
             <Hidden smDown>
+
             <Button color="blue" href="#top" className={classes.button}>
+
                 About Us
               </Button>
               <Button color="blue" href="#projects" className={classes.button}>
@@ -122,6 +125,7 @@ function AppHeader(props) {
                     ))} */}
                   <ListItem button key="About Us" href="#top">
                     <Button color="blue" href="#top" className={classes.button}>
+
                     About Us
                     </Button>
                   </ListItem>
@@ -138,6 +142,7 @@ function AppHeader(props) {
                   <ListItem button key="Contact" href="#contactUs">
                     <Button color="blue" href="#contactUs" className={classes.button}>
                     Contact
+
                     </Button>
                   </ListItem>
                 </List>

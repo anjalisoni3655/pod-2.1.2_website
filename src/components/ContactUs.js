@@ -33,6 +33,7 @@ const useStyles = makeStyles((theme) => ({
   },
   text: {
     textAlign: "center",
+    fontSize: "20px",
   },
   button: {
     margin: "auto",
@@ -52,10 +53,10 @@ function ContactForm(props) {
   const classes = useStyles();
 
   let [formData, setFormData] = useState({
-    name: "",
-    from: "",
-    subject: "",
-    msg: "",
+    firstname: "",
+    _replyto: "",
+
+    message: "",
   });
 
   function handleChange(event) {
@@ -74,7 +75,7 @@ function ContactForm(props) {
   }
 
   return (
-    <form id="contactUs">
+    <form id="contactUs" action="https://formspree.io/f/xrgodpqo" method="POST">
       <Grid
         container
         spacing={2}
@@ -94,10 +95,11 @@ function ContactForm(props) {
               required
               variant="outlined"
               id="name"
-              name="name"
+              name="firstname"
               label="Name"
+              type="text"
               defaultValue=""
-              value={formData.name}
+              value={formData.firstname}
               onChange={handleChange}
             />
           </ThemeProvider>
@@ -106,13 +108,14 @@ function ContactForm(props) {
           <ThemeProvider theme={rawTheme}>
             <TextField
               fullWidth
+              type="email"
               required
               variant="outlined"
               id="email"
               name="_replyto"
               label="Contact Email"
               defaultValue=""
-              value={formData.from}
+              value={formData._replyto}
               onChange={handleChange}
             />
           </ThemeProvider>
@@ -127,11 +130,11 @@ function ContactForm(props) {
               variant="outlined"
               rows={4}
               rowsMax={10}
-              id="msg"
+              id="message"
               name="message"
-              label={"Your Message"}
+              label="Your Message"
               defaultValue=""
-              value={formData.msg}
+              value={formData.message}
               onChange={handleChange}
             />
           </ThemeProvider>
@@ -142,7 +145,10 @@ function ContactForm(props) {
             color="secondary"
             className={classes.button}
             onClick={sendContactUsData}
-            disabled={!formData.name || !formData.from || !formData.msg}
+            type="submit"
+            disabled={
+              !formData.firstname || !formData._replyto || !formData.message
+            }
           >
             Send
           </Button>
