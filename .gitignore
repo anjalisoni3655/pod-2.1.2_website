@@ -8,7 +8,6 @@
 # testing
 /coverage
 
-/build
 
 package-lock.json
 # misc
