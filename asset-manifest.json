@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/pod-2.1.2_website/static/css/main.08513b46.chunk.css",
-    "main.js": "/pod-2.1.2_website/static/js/main.28ede060.chunk.js",
-    "main.js.map": "/pod-2.1.2_website/static/js/main.28ede060.chunk.js.map",
+    "main.css": "/pod-2.1.2_website/static/css/main.68087754.chunk.css",
+    "main.js": "/pod-2.1.2_website/static/js/main.0139b157.chunk.js",
+    "main.js.map": "/pod-2.1.2_website/static/js/main.0139b157.chunk.js.map",
     "runtime-main.js": "/pod-2.1.2_website/static/js/runtime-main.a3a09912.js",
     "runtime-main.js.map": "/pod-2.1.2_website/static/js/runtime-main.a3a09912.js.map",
     "static/css/2.8d51fce3.chunk.css": "/pod-2.1.2_website/static/css/2.8d51fce3.chunk.css",
-    "static/js/2.fd88d312.chunk.js": "/pod-2.1.2_website/static/js/2.fd88d312.chunk.js",
-    "static/js/2.fd88d312.chunk.js.map": "/pod-2.1.2_website/static/js/2.fd88d312.chunk.js.map",
+    "static/js/2.9bb25706.chunk.js": "/pod-2.1.2_website/static/js/2.9bb25706.chunk.js",
+    "static/js/2.9bb25706.chunk.js.map": "/pod-2.1.2_website/static/js/2.9bb25706.chunk.js.map",
     "index.html": "/pod-2.1.2_website/index.html",
     "static/css/2.8d51fce3.chunk.css.map": "/pod-2.1.2_website/static/css/2.8d51fce3.chunk.css.map",
-    "static/css/main.08513b46.chunk.css.map": "/pod-2.1.2_website/static/css/main.08513b46.chunk.css.map",
-    "static/js/2.fd88d312.chunk.js.LICENSE.txt": "/pod-2.1.2_website/static/js/2.fd88d312.chunk.js.LICENSE.txt",
+    "static/css/main.68087754.chunk.css.map": "/pod-2.1.2_website/static/css/main.68087754.chunk.css.map",
+    "static/js/2.9bb25706.chunk.js.LICENSE.txt": "/pod-2.1.2_website/static/js/2.9bb25706.chunk.js.LICENSE.txt",
     "static/media/Aitik.6bea4912.png": "/pod-2.1.2_website/static/media/Aitik.6bea4912.png",
     "static/media/Bodhisha.6dfdba69.jpeg": "/pod-2.1.2_website/static/media/Bodhisha.6dfdba69.jpeg",
     "static/media/Bushra.e318df00.jpeg": "/pod-2.1.2_website/static/media/Bushra.e318df00.jpeg",
@@ -24,15 +24,15 @@
     "static/media/Sena.2a0bd8ef.jpeg": "/pod-2.1.2_website/static/media/Sena.2a0bd8ef.jpeg",
     "static/media/Shrill.b184fb7a.jpg": "/pod-2.1.2_website/static/media/Shrill.b184fb7a.jpg",
     "static/media/anjali.680045ac.jpg": "/pod-2.1.2_website/static/media/anjali.680045ac.jpg",
-    "static/media/instagram.e719d8b2.png": "/pod-2.1.2_website/static/media/instagram.e719d8b2.png",
     "static/media/olaf.e015a2b0.gif": "/pod-2.1.2_website/static/media/olaf.e015a2b0.gif",
-    "static/media/snow.ad07bed2.jpg": "/pod-2.1.2_website/static/media/snow.ad07bed2.jpg"
+    "static/media/snow_8.e1a7b3d1.jpg": "/pod-2.1.2_website/static/media/snow_8.e1a7b3d1.jpg",
+    "static/media/sumi.37963b8a.jpg": "/pod-2.1.2_website/static/media/sumi.37963b8a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a3a09912.js",
     "static/css/2.8d51fce3.chunk.css",
-    "static/js/2.fd88d312.chunk.js",
-    "static/css/main.08513b46.chunk.css",
-    "static/js/main.28ede060.chunk.js"
+    "static/js/2.9bb25706.chunk.js",
+    "static/css/main.68087754.chunk.css",
+    "static/js/main.0139b157.chunk.js"
   ]
 }
