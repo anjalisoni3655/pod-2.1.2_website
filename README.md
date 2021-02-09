@@ -19,8 +19,8 @@
   - run `npm install` to instal node modules
   - run `npm start` to start the service on `localhost:3000`
     
-##### Deployed app : https://pod-website-2-1-2.herokuapp.com/
-- Deployment done using Heroku app.
+##### Deployed app : https://open-sourced-olafs.netlify.app/
+- Deployment done using Netlify. 
 - Continuous deployment is also done using Travis CI.
 
 ## Future Scopes
