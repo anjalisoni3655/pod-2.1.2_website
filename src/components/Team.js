@@ -34,8 +34,8 @@ if (isMobile === true) {
   margin = "90px";
 } else {
   newTeamDetails = mobileTeamDetails;
-  thickness = 3;
-  margin = "150px";
+  thickness = 2;
+  margin = "110px";
 }
 
 const useStyles = makeStyles((theme) => ({
