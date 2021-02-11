@@ -184,11 +184,11 @@ function Team() {
         <Carousel
           swipeable={false}
           draggable={false}
-          showDots={true}
+          showDots={isMobile ? false : true}
           responsive={responsive}
           ssr={true} // means to render carousel on server-side.
           infinite={true}
-          autoPlay={isMobile ? true : false}
+          autoPlay={true}
           autoPlaySpeed={2000}
           keyBoardControl={true}
           customTransition="all .5"
