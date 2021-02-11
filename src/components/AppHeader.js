@@ -21,8 +21,10 @@ const useStyles = makeStyles((theme) => ({
   },
   menuButton: {
     //  position: "left",
-    marginRight: theme.spacing(1),
-    color: "blue",
+
+    marginRight: "350px",
+
+    color: "black",
   },
   title: {
     fontSize: 22,
@@ -43,8 +45,8 @@ const useStyles = makeStyles((theme) => ({
     position: "fixed",
     width: "100%",
     zIndex: 6,
-    backdropFilter:"blur(20px)",
- //  backdropFilter: blur(10px),
+    backdropFilter: "blur(20px)",
+    //  backdropFilter: blur(10px),
   },
   menu: {
     flexGrow: 1,
@@ -55,8 +57,7 @@ const useStyles = makeStyles((theme) => ({
     height: "20px",
     fontSize: "16px",
     cursor: "pointer",
- //  textDecoration:"underline"
-    
+    //  textDecoration:"underline"
   },
 }));
 
@@ -104,13 +105,14 @@ function AppHeader(props) {
                 className={classes.menuButton}
                 color="#000"
                 aria-label="menu"
-                //position="left"
+                float="left"
+                size="large"
                 onClick={toggleDrawer}
               >
-                <MenuIcon />
+                <MenuIcon fontSize="large" />
               </IconButton>
               <SwipeableDrawer
-                anchor="right"
+                anchor="left"
                 open={open}
                 onClose={toggleDrawer}
                 onOpen={toggleDrawer}
