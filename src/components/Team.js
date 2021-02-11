@@ -4,29 +4,49 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Grid, Typography } from "@material-ui/core";
 import { teamDetails, mobileTeamDetails } from "../content/TeamDetails";
 import Rashika from "../resources/TeamMembers/Rashika.jpg";
-var isMobile = window.orientation > -1;
 
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+const responsive = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3,
+    slidesToSlide: 3, // optional, default to 1.
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+    slidesToSlide: 2, // optional, default to 1.
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+};
+var isMobile = window.orientation > -1;
 var newTeamDetails = [];
 var margin = "0px";
 var thickness;
 if (isMobile === true) {
   newTeamDetails = mobileTeamDetails;
   thickness = 2;
-  margin = "80px";
+  margin = "90px";
 } else {
-  newTeamDetails = teamDetails;
+  newTeamDetails = mobileTeamDetails;
   thickness = 3;
+  margin = "150px";
 }
 
 const useStyles = makeStyles((theme) => ({
   main: {
     marginTop: "80px",
     position: "center",
-
   },
   slider: {
-    width: "85%",
-    marginTop: "25px",
+    //  width: "85%",
+    // marginTop: "25px",
+    marginBottom: "10px",
   },
   images: {
     marginTop: "50px",
@@ -46,7 +66,11 @@ function Team() {
   return (
     <div className="div-class" id="team">
       <center>
-        <Typography className={classes.main} variant="h3" style={{marginBottom:"-20px"}}>
+        <Typography
+          className={classes.main}
+          variant="h3"
+          style={{ marginBottom: "-20px" }}
+        >
           Meet our Olafs :D
         </Typography>
 
@@ -157,14 +181,24 @@ function Team() {
             </div>
           </div>
         </div>
-        <Slider
+        <Carousel
+          swipeable={false}
+          draggable={false}
+          showDots={true}
+          responsive={responsive}
+          ssr={true} // means to render carousel on server-side.
+          infinite={true}
+          autoPlay={isMobile ? true : false}
+          autoPlaySpeed={2000}
+          keyBoardControl={true}
+          customTransition="all .5"
+          transitionDuration={500}
+          containerClass="carousel-container"
+          removeArrowOnDeviceType={["tablet"]}
+          deviceType={isMobile}
+          dotListClass="custom-dot-list-style"
+          itemClass="carousel-item-padding-40-px"
           className={classes.slider}
-          swipe={false}
-          duration={400}
-          justify="center"
-          direction="column"
-          autoplay={true}
-          autoplaySpeed={4000}
         >
           {newTeamDetails.map((teamPage) => (
             <div>
@@ -180,7 +214,7 @@ function Team() {
                       src={member.img}
                       alt="image"
                     />
-                    <div>
+                    <div style={{ marginBottom: "15px" }}>
                       <div className="font-bold text-xl mb-2 mt-2">
                         {member.name}
                       </div>
@@ -300,7 +334,7 @@ function Team() {
               </Grid>
             </div>
           ))}
-        </Slider>
+        </Carousel>
       </center>
     </div>
   );

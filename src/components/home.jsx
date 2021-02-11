@@ -10,6 +10,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import backgroundImage from "../resources/images/snow_8.jpg";
 //
 
+
 const useStyles = makeStyles((theme) => ({
   backgroundDiv: {
     // boxShadow: "0px 0px 10px 10px #BDDFFB",
@@ -55,6 +56,7 @@ const useStyles = makeStyles((theme) => ({
     width: "10%",
   },
 }));
+
 
 function Home() {
   const classes = useStyles();
